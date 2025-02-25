@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINK ZONE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ff33cc;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly; /* Distribuye los elementos con espacio entre ellos */
+            padding: 20px;
+        }
+        .menu-item {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px; /* Asegura que cada ítem tenga el mismo tamaño */
+            transition: transform 0.3s;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .contacto {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ff5733;
+            color: white;
+        }
+
+        /* Estilo para el enunciado flotante */
+        .enunciado-flotante {
+            position: relative;
+            animation: deslizar 3s infinite; /* Animación que se repite */
+            font-size: 18px;
+            background-color: rgb(255, 255, 255); /* Fondo oscuro semitransparente */
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* Definimos la animación para que suba y baje */
+        @keyframes deslizar {
+            0% {
+                bottom: 0;
+            }
+            50% {
+                bottom: 30px;
+            }
+            100% {
+                bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>PINK ZONE</header>
+    <div class="menu">
+        <!-- Shucos -->
+        <div class="menu-item">
+            <a href="https://wa.me/+50255355124?text=Hola,%20me%20interesa%20el%20Shuco" target="_blank">
+                <img src="C:\Users\eichel\Downloads\shucos.jpg" alt="Shucos" />
+                <h3>Shucos</h3>
+                <br>
+                <!-- Enunciado flotante animado -->
+                <div class="enunciado-flotante">
+                    <strong>Q. 15.00 "Normal"</strong><br>
+                    <strong>Q. 20.00 "Combo"</strong>
+                </div>
+            </a>
+        </div>
+
+        <!-- Hamburguesa -->
+        <div class="menu-item">
+            <a href="https://wa.me/+50255355124?text=Hola,%20me%20interesa%20la%20Hamburguesa" target="_blank">
+                <img src="C:\Users\eichel\Downloads\hamburguesa.jpeg" alt="Hamburguesa"/>
+                <h3>Hamburguesa</h3>
+                <br>
+                <!-- Enunciado flotante animado -->
+                <div class="enunciado-flotante">
+                    <strong>Q. 15.00 "Normal"</strong><br>
+                    <strong>Q. 20.00 "Combo"</strong>
+                </div>
+            </a>
+        </div>
+
+        <!-- Crepas -->
+        <div class="menu-item">
+            <a href="https://wa.me/+50255355124?text=Hola,%20me%20interesa%20la%20Crepa%20Fresa" target="_blank">
+                <img src="C:\Users\eichel\Downloads\crepas.jpeg" alt="Crepas"/>
+                <h3>Crepas</h3>
+                <br>
+                <!-- Enunciado flotante animado -->
+                <div class="enunciado-flotante">
+                    <strong>Q. 26.00 Fresa</strong><br>
+                    <strong>Q. 25.00 Banano</strong>
+                </div>
+            </a>
+        </div>
+
+        <!-- Chocos -->
+        <div class="menu-item">
+            <a href="https://wa.me/+50255355124?text=Hola,%20me%20interesan%20los%20Chocos" target="_blank">
+                <img src="C:\Users\eichel\Downloads\Chocofrutas1-885x500.jpg" alt="Chocos"/>
+                <h3>Chocos</h3>
+                <br>
+                <!-- Enunciado flotante animado -->
+                <div class="enunciado-flotante">
+                    <strong>Choco mango Q. 6.00, 7.00, 10.00</strong><br>
+                    <strong>Choco fresa Q. 2.50, 3.50, 5.00, 6.00</strong><br>
+                    <strong>Choco sandía Q. 2.00, 3.00, 5.00, 6.00</strong><br>
+                    <strong>Choco Bananno Q. 2.00, 3.00, 5.00, 6.00</strong><br>
+                </div>
+            </a>
+        </div>
+
+        <!-- Nachos -->
+        <div class="menu-item">
+            <a href="https://wa.me/+50255355124?text=Hola,%20me%20interesan%20los%20Nachos" target="_blank">
+                <img src="C:\Users\eichel\Downloads\nachos.jpg" alt="Nachos"/>
+                <h3>Nachos</h3>
+                <br>
+                <!-- Enunciado flotante animado -->
+                <div class="enunciado-flotante">
+                    <strong>Q. 10.00 Porción</strong>
+                </div>
+            </a>
+        </div>
+
+        <!-- Salchipapas -->
+        <div class="menu-item">
+            <a href="https://wa.me/+50255355124?text=Hola,%20me%20interesan%20las%20Salchipapas" target="_blank">
+                <img src="C:\Users\eichel\Downloads\salchipapas.jpeg" alt="Salchipapas"/>
+                <h3>Salchipapas</h3>
+                <br>
+                <!-- Enunciado flotante animado -->
+                <div class="enunciado-flotante">
+                    <strong>Q. 15.00</strong>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="contacto">
+        <h2>Contacto</h2>
+        <p>📍 Dirección: Colonia El Eucalipto, El Tejar, Chimaltenango</p>
+        <p>📞 Teléfono: +502 5535 5124</p>
+    </div>
+
+</body>
+</html>
